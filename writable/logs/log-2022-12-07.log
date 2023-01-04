@@ -1,0 +1,20 @@
+CRITICAL - 2022-12-07 05:39:08 --> Class "Config\Service" not found
+in APPPATH\Views\blog\create.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blog/create', [], true)
+ 4 APPPATH\Controllers\Blog.php(28): view('blog/create')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Blog->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 05:39:12 --> Class "Config\Service" not found
+in APPPATH\Views\blog\create.php on line 5.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blog/create', [], true)
+ 4 APPPATH\Controllers\Blog.php(28): view('blog/create')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Blog->create()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
